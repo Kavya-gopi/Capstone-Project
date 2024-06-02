@@ -1,0 +1,66 @@
+/* Header NavBar styles */
+*{
+  margin:0;
+  padding:0;
+}
+
+.headerTitle {
+  font-weight: 900;
+  color: rgb(113, 3, 113);
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subTitle {
+  font-weight: 600;
+  color: rgb(44, 120, 195);
+}
+
+.nav-link {
+  font-size: larger;
+  text-decoration: none;
+  color: rgb(113, 3, 113);
+  padding: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+  color: blue;
+}
+
+.custom-badge {
+  background-color: rgb(23, 102, 193) !important;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.nav-bar-style {
+  text-decoration: none;
+  padding: 2px;
+  color: rgb(113, 3, 113);
+}
+
+/* main outlet bg color */
+.body-bg{
+  background-color: rgb(225, 225, 250);
+  min-height: 100vh;
+}
+
+
+
+@media only screen and (max-width: 990px) {
+  .nav-link {
+    font-size: larger;
+    text-decoration: none;
+    color: rgb(113, 3, 113);
+    padding: 3px;
+    margin: 2px;
+    border-radius: 10px;
+    padding-top: 5px;
+  }
+}
+
+

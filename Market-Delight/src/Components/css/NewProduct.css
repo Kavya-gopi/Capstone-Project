@@ -1,0 +1,59 @@
+.h-7 {
+  height: 150px;
+}
+
+.w-400 {
+  width: 500px;
+}
+
+.bg-color {
+  background-color: rgb(229, 212, 245);
+}
+.box-style-form {
+  background-color: white;
+}
+
+label {
+  color: rgb(113, 3, 113);
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outl-none {
+  outline: none;
+  border: none;
+}
+
+input[type="text"] {
+  background-color: rgb(229, 212, 245);
+}
+
+.select-style,.text-area-style {
+  background-color: rgb(229, 212, 245);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.button-btn{
+    width:100px;
+    margin:8px auto 0 auto;
+    background-color: rgb(243, 85, 243);
+    color:white;
+    font-weight:900;
+    border-radius: 5px;
+    border: 2px solid rgb(234, 113, 234);
+
+}
+
+
+@media only screen and (max-width: 550px) {
+  .w-400 {
+    width: 300px;
+  }
+}
+
+
